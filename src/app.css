@@ -65,9 +65,10 @@ h1, h2, h3, h4, p, figure {
 	padding-inline: var(--pad-x);
 }
 
+/* No top rule between stacked sections — the pages read as one continuous
+   column rather than a stack of ruled blocks. */
 .section {
 	padding-block: clamp(4rem, 9vw, 7.5rem);
-	border-top: 1px solid var(--line);
 }
 
 /* ---------- Display type ---------- */
