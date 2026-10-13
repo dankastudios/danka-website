@@ -1,17 +1,15 @@
 ---
-
-date: 2026-09-29
 title: Kaala Meeruva Munna
-url: https://www.youtube.com/watch?v=tkM_WGkw7uo
+url: 'https://www.youtube.com/watch?v=tkM_WGkw7uo'
+date: 2026-09-29T00:00:00.000Z
 tags:
-  - Short film
   - Spoken poetry
   - Kannada
 director: Kaushik H A
 writer: Kaushik H A
 cast_crew:
   - role: Cast
-    name: Shruthi Babu as Mother, Iza Mariam Abin as Baby
+    name: 'Shruthi Babu as Mother, Iza Mariam Abin as Baby'
   - role: Poem Written & Narrated by
     name: Kaushik H A
   - role: Concept & Direction
@@ -25,7 +23,7 @@ cast_crew:
   - role: Outdoor Cinematography
     name: Kaushik H A
   - role: Lighting Support
-    name: Anirudh A V, Pruthvi R
+    name: 'Anirudh A V, Pruthvi R'
   - role: Music Arrangement
     name: Venugopal S
   - role: Casting & Costume Design
