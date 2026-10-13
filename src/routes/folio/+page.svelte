@@ -6,12 +6,50 @@
 	let { data }: { data: { items: FolioItem[]; page: PageContent | null } } = $props();
 
 	const { items, page } = $derived(data);
+
+	/** Headings in display order. A project appears in every section whose key
+	 *  matches one of its tags, and in Other only when none of them do. */
+	const sectionKeys: { label: string; keys: string[] }[] = [
+		{ label: 'Web Series', keys: ['web series'] },
+		{ label: 'Short Films', keys: ['short film'] },
+		{ label: 'Music Videos', keys: ['music'] }
+	];
+
+	const matches = (item: FolioItem, keys: string[]) =>
+		!!item.tags?.some((t) => keys.some((k) => t.toLowerCase().includes(k)));
+
+	const sections = $derived(
+		sectionKeys.map((s) => ({ ...s, items: items.filter((i) => matches(i, s.keys)) }))
+	);
+	const otherItems = $derived(items.filter((i) => !sectionKeys.some((s) => matches(i, s.keys))));
 </script>
 
 <svelte:head>
 	<title>{page?.title ?? 'Folio'} — Danka Studios</title>
 	<meta name="description" content={page?.description ?? ''} />
 </svelte:head>
+
+{#snippet card(item: FolioItem)}
+	<a class="folio-card" href={`/folio/${item.slug}`}>
+		{#if item.cover}
+			<div class="folio-media">
+				<img src={item.cover} alt={item.title} loading="lazy" />
+			</div>
+		{:else}
+			<div class="folio-media folio-media-empty"></div>
+		{/if}
+		<div class="folio-body">
+			<h2 class="folio-name">{item.title}</h2>
+			{#if item.tags?.length}
+				<div class="folio-tags">
+					{#each item.tags as tag (tag)}
+						<span class="tag">{tag}</span>
+					{/each}
+				</div>
+			{/if}
+		</div>
+	</a>
+{/snippet}
 
 <section class="container section page-head">
 	<p class="eyebrow accent">Folio</p>
@@ -23,62 +61,24 @@
 
 <section class="container section folio-grid-wrap">
 	{#if items.length}
-		{#each [['Web Series', 'web series'], ['Short Films', 'short film'], ['Music', 'music'], ['Docu-drama', 'docu-drama']] as [label, key] (label)}
-			{@const catItems = items.filter(item => item.tags?.some(t => t.toLowerCase().includes(key)))}
-			{#if catItems.length}
+		{#each sections as section (section.label)}
+			{#if section.items.length}
 				<div class="category-section">
-					<h2 class="display display-md category-title">{label}</h2>
+					<h2 class="display display-md category-title">{section.label}</h2>
 					<div class="folio-grid">
-						{#each catItems as item (item.slug)}
-							<a class="folio-card" href={`/folio/${item.slug}`}>
-								{#if item.cover}
-									<div class="folio-media">
-										<img src={item.cover} alt={item.title} loading="lazy" />
-									</div>
-								{:else}
-									<div class="folio-media folio-media-empty"></div>
-								{/if}
-								<div class="folio-body">
-									<h2 class="folio-name">{item.title}</h2>
-									{#if item.tags?.length}
-										<div class="folio-tags">
-											{#each item.tags as tag (tag)}
-												<span class="tag">{tag}</span>
-											{/each}
-										</div>
-									{/if}
-								</div>
-							</a>
+						{#each section.items as item (item.slug)}
+							{@render card(item)}
 						{/each}
 					</div>
 				</div>
 			{/if}
 		{/each}
-		{@const otherItems = items.filter(item => !item.tags?.some(t => ['web series','short film','spoken poetry','music video','song','docu-drama'].some(k => t.toLowerCase().includes(k))))}
 		{#if otherItems.length}
 			<div class="category-section">
 				<h2 class="display display-md category-title">Other</h2>
 				<div class="folio-grid">
 					{#each otherItems as item (item.slug)}
-						<a class="folio-card" href={`/folio/${item.slug}`}>
-							{#if item.cover}
-								<div class="folio-media">
-									<img src={item.cover} alt={item.title} loading="lazy" />
-								</div>
-							{:else}
-								<div class="folio-media folio-media-empty"></div>
-							{/if}
-							<div class="folio-body">
-								<h2 class="folio-name">{item.title}</h2>
-								{#if item.tags?.length}
-									<div class="folio-tags">
-										{#each item.tags as tag (tag)}
-											<span class="tag">{tag}</span>
-										{/each}
-									</div>
-								{/if}
-							</div>
-						</a>
+						{@render card(item)}
 					{/each}
 				</div>
 			</div>
