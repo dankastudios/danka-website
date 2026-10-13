@@ -1,19 +1,17 @@
 ---
-
-date: 2026-09-29
 title: The Makers
-url: https://www.youtube.com/watch?v=EEJwVaO_QFg
+url: 'https://www.youtube.com/watch?v=EEJwVaO_QFg'
+date: 2026-09-29T00:00:00.000Z
 tags:
   - Docu-drama
-  - Web series
   - Kannada
   - Coming soon
 director: Kaushik H A
 writer: Kaushik H A
 cast_crew:
   - role: Cast
-    name: Chaithra Rao, Kaushik H A, Venugopal S and the team
-  - role: Concept, Written & Directed by
+    name: 'Chaithra Rao, Kaushik H A, Venugopal S and the team'
+  - role: 'Concept, Written & Directed by'
     name: Kaushik H A
   - role: Editing
     name: Venugopal S
