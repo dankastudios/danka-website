@@ -1,15 +1,36 @@
 {
-  "updatedAt": "2026-10-30T00:26:20.114Z",
+  "updatedAt": "2026-10-31T00:30:12.501Z",
   "channel": {
     "channelId": "UC57RodGlZednaNDRKs13uMQ",
     "title": "Danka Studios",
     "description": "Danka Studios is an art collective of passionate storytellers, filmmakers, and artists, dedicated to creating innovative and meaningful content in Kannada. We believe in the power of art to evoke empathy and bring impactful stories to life.\n\nProjects : Gowri (Kannada short), Pressure Cooker(Kannada webseries)\nSubscribe & be part of our journey!\n",
     "thumbnail": "/images/thumbnails/channel.jpg",
-    "subscriberCount": "16.8K",
-    "videoCount": "92",
+    "subscriberCount": "16.9K",
+    "videoCount": "95",
     "viewCount": "2.9M"
   },
   "videos": [
+    {
+      "videoId": "e6Hc9v2gtsw",
+      "title": "AALISADA | Official Video Song | In The Mood For Marriage | Keerthan Holla | Vyshak Bhargav | Danka",
+      "publishedAt": "",
+      "views": "2K",
+      "thumbnail": "/images/thumbnails/e6Hc9v2gtsw.jpg"
+    },
+    {
+      "videoId": "3-ZUjLdz-R0",
+      "title": "PADE PADE | In The Mood For Marriage | Official Kannada Video Song | Shreyas B Rao | Vyshak Bhargav",
+      "publishedAt": "",
+      "views": "1.4K",
+      "thumbnail": "/images/thumbnails/3-ZUjLdz-R0.jpg"
+    },
+    {
+      "videoId": "fDvK_iQjDUM",
+      "title": "In The Mood For Marriage - Title Theme | Official Video Song | Kannada Web Series",
+      "publishedAt": "",
+      "views": "388",
+      "thumbnail": "/images/thumbnails/fDvK_iQjDUM.jpg"
+    },
     {
       "videoId": "tOKwEY10-1I",
       "title": "ಮಾತುಕತೆ with Srinivas & Mrinalini |  In the Mood for Marriage | Shrunga B V & Hitha Chandrashekar",
@@ -21,7 +42,7 @@
       "videoId": "FhEG2wnwGpo",
       "title": "In The Mood For Marriage | Episode 8 – Finale | Kannada Web Series [Eng Subs]",
       "publishedAt": "",
-      "views": "123K",
+      "views": "124K",
       "thumbnail": "/images/thumbnails/FhEG2wnwGpo.jpg"
     },
     {
@@ -35,14 +56,14 @@
       "videoId": "aIcjgNsFgS4",
       "title": "In The Mood For Marriage | Episode 7 | Kannada Web Series [Eng subs]",
       "publishedAt": "",
-      "views": "109K",
+      "views": "110K",
       "thumbnail": "/images/thumbnails/aIcjgNsFgS4.jpg"
     },
     {
       "videoId": "M2e5jh7pmLk",
       "title": "In The Mood For Marriage | Episode 6 | Kannada Web Series | Shrunga B V, Hitha Chandrashekar[EngSub]",
       "publishedAt": "",
-      "views": "135K",
+      "views": "136K",
       "thumbnail": "/images/thumbnails/M2e5jh7pmLk.jpg"
     },
     {
@@ -58,27 +79,6 @@
       "publishedAt": "",
       "views": "186K",
       "thumbnail": "/images/thumbnails/uQVmhdx1mOk.jpg"
-    },
-    {
-      "videoId": "ywoTj8jgfmI",
-      "title": "In The Mood For Marriage | Trailer | Kannada Web Series | Episodes 4 & 5 | September 23 |",
-      "publishedAt": "",
-      "views": "43K",
-      "thumbnail": "/images/thumbnails/ywoTj8jgfmI.jpg"
-    },
-    {
-      "videoId": "R3u_ENdCZck",
-      "title": "In The Mood For Marriage | Episode 3 | Kannada Web Series | Shrunga B V, Hitha Chandrashekar",
-      "publishedAt": "",
-      "views": "160K",
-      "thumbnail": "/images/thumbnails/R3u_ENdCZck.jpg"
-    },
-    {
-      "videoId": "adWLkN-DeCk",
-      "title": "In The Mood For Marriage | Episode 2 | Kannada Web Series | Shrunga B V, Hitha Chandrashekar",
-      "publishedAt": "",
-      "views": "163K",
-      "thumbnail": "/images/thumbnails/adWLkN-DeCk.jpg"
     }
   ]
 }
