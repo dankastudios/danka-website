@@ -1,20 +1,26 @@
 {
-  "updatedAt": "2026-11-13T04:16:08.136Z",
+  "updatedAt": "2026-11-14T04:12:18.135Z",
   "channel": {
     "channelId": "UC57RodGlZednaNDRKs13uMQ",
     "title": "Danka Studios",
     "description": "Danka Studios is an art collective of passionate storytellers, filmmakers, and artists, dedicated to creating innovative and meaningful content in Kannada. We believe in the power of art to evoke empathy and bring impactful stories to life.\n\nProjects : Gowri (Kannada short), Pressure Cooker(Kannada webseries)\nSubscribe & be part of our journey!\n",
     "thumbnail": "/images/thumbnails/channel.jpg",
-    "subscriberCount": "17.2K",
-    "videoCount": "98",
+    "subscriberCount": "17.3K",
+    "videoCount": "100",
     "viewCount": "3.1M"
   },
   "videos": [
     {
+      "videoId": "k1NCfEDcQdo",
+      "title": "Unfiltered ಮಾತುಕತೆ | ft.In the mood for marriage | Kannada Podcast | Shrunga | Hitha | EP1 | Danka",
+      "publishedAt": "",
+      "thumbnail": "/images/thumbnails/k1NCfEDcQdo.jpg"
+    },
+    {
       "videoId": "haiel4cwTeM",
       "title": "Unfiltered ಮಾತು-ಕತೆ - Official Trailer | Ft. In the Mood for Marriage |  EP 01",
       "publishedAt": "",
-      "views": "5.5K",
+      "views": "10K",
       "thumbnail": "/images/thumbnails/haiel4cwTeM.jpg"
     },
     {
@@ -35,7 +41,7 @@
       "videoId": "fDvK_iQjDUM",
       "title": "In The Mood For Marriage - Title Theme | Official Video Song | Kannada Web Series",
       "publishedAt": "",
-      "views": "3.2K",
+      "views": "3.3K",
       "thumbnail": "/images/thumbnails/fDvK_iQjDUM.jpg"
     },
     {
@@ -49,7 +55,7 @@
       "videoId": "FhEG2wnwGpo",
       "title": "In The Mood For Marriage | Episode 8 – Finale | Kannada Web Series [Eng Subs]",
       "publishedAt": "",
-      "views": "131K",
+      "views": "132K",
       "thumbnail": "/images/thumbnails/FhEG2wnwGpo.jpg"
     },
     {
@@ -70,15 +76,8 @@
       "videoId": "M2e5jh7pmLk",
       "title": "In The Mood For Marriage | Episode 6 | Kannada Web Series | Shrunga B V, Hitha Chandrashekar[EngSub]",
       "publishedAt": "",
-      "views": "141K",
+      "views": "142K",
       "thumbnail": "/images/thumbnails/M2e5jh7pmLk.jpg"
-    },
-    {
-      "videoId": "hyjB36YebDk",
-      "title": "In The Mood For Marriage | Episode 5 | Shrunga B V & Hitha Chandrashekar[Eng subtitles]",
-      "publishedAt": "",
-      "views": "157K",
-      "thumbnail": "/images/thumbnails/hyjB36YebDk.jpg"
     }
   ]
 }
