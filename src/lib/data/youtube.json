@@ -1,12 +1,12 @@
 {
-  "updatedAt": "2026-11-20T04:58:41.973Z",
+  "updatedAt": "2026-11-21T04:54:40.141Z",
   "channel": {
     "channelId": "UC57RodGlZednaNDRKs13uMQ",
     "title": "Danka Studios",
     "description": "Danka Studios is an art collective of passionate storytellers, filmmakers, and artists, dedicated to creating innovative and meaningful content in Kannada. We believe in the power of art to evoke empathy and bring impactful stories to life.\n\nProjects : Gowri (Kannada short), Pressure Cooker(Kannada webseries)\nSubscribe & be part of our journey!\n",
     "thumbnail": "/images/thumbnails/channel.jpg",
-    "subscriberCount": "17.4K",
-    "videoCount": "101",
+    "subscriberCount": "17.5K",
+    "videoCount": "103",
     "viewCount": "3.1M"
   },
   "videos": [
@@ -14,7 +14,15 @@
       "videoId": "k1NCfEDcQdo",
       "title": "Unfiltered ಮಾತುಕತೆ | ft.In the mood for marriage | Kannada Podcast | Shrunga | Hitha | EP1 | Danka",
       "publishedAt": "",
+      "views": "5K",
       "thumbnail": "/images/thumbnails/k1NCfEDcQdo.jpg"
+    },
+    {
+      "videoId": "xX1WnR0JbZg",
+      "title": "Danka Membership - Enjoy Original Kannada Content | ಕನ್ನಡದ ಹೊಸ ಕಥೆಗಳಿಗೆ ನಿಮ್ಮ ಬೆಂಬಲ! | Click JOIN",
+      "publishedAt": "",
+      "views": "2.8K",
+      "thumbnail": "/images/thumbnails/xX1WnR0JbZg.jpg"
     },
     {
       "videoId": "haiel4cwTeM",
@@ -71,13 +79,6 @@
       "publishedAt": "",
       "views": "118K",
       "thumbnail": "/images/thumbnails/aIcjgNsFgS4.jpg"
-    },
-    {
-      "videoId": "M2e5jh7pmLk",
-      "title": "In The Mood For Marriage | Episode 6 | Kannada Web Series | Shrunga B V, Hitha Chandrashekar[EngSub]",
-      "publishedAt": "",
-      "views": "144K",
-      "thumbnail": "/images/thumbnails/M2e5jh7pmLk.jpg"
     }
   ]
 }
